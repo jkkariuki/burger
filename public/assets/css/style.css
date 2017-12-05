@@ -1,0 +1,8 @@
+#uneaten {
+    display: inline-block
+}
+
+#eaten {
+    display: inline-block;
+    text-align: right;
+}
