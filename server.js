@@ -10,7 +10,7 @@ app.use(express.static(process.cwd() + '/public'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use(methodOverride('_method'));
+app.use(methodOverride('X-HTTP-Method-Override'));
 
 var exphbs = require('express-handlebars');
 
